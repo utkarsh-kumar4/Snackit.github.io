@@ -1,0 +1,63 @@
+body {
+    background-color: #fffc01;
+    height: 100vh;
+}
+
+/* Container 1 styling. */
+/* STARTS */
+.container1 {
+    background-color: #fffc01;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 70%;
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar button {
+    list-style: none;
+    margin-top: -10px;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #fffc01;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 23px;
+    outline: none;
+    border: none;
+}
+
+.navbar button:hover {
+    color: #fffc01;
+    background-color: black;
+}
+
+.container1 a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+}
+
+.container1 a:hover {
+    color: #fffc01;
+    background-color: black;
+}
+/* ENDS */

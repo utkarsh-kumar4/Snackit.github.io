@@ -1,0 +1,255 @@
+body {
+    /* background-image: url(Background.png); */
+    background-color: #fffc01;
+    margin: 0px;
+    height: 100vh;
+}
+
+/* Container 1 styling. */
+/* STARTS */
+.container1 {
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 85%;
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 20px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container1 a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+}
+
+.container1 a:hover {
+    color: #fffc01;
+    background-color: black;
+}
+/* ENDS */
+
+
+/* Container 2 styling. */
+/* STARTS */
+.container2 {
+    background-color: white;
+    box-shadow: 0px 0px 35px black;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 35px;
+    width: 30%;
+    overflow: hidden;
+}
+
+/* Span box styling. */
+/* STARTS */
+#error{
+    color: red;
+    text-align: center;
+}
+/* ENDS */
+
+/* Heading box styling. */
+/* STARTS */
+.heading h1 {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+/* ENDS */
+
+/* Credentials box styling. */
+/* STARTS */
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail input {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.mail i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.password input {
+    position: relative;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.password i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* ENDS */
+
+
+/* or text styling. */
+/* STARTS */
+.or {
+    position: relative;
+    z-index: 1;
+    margin: 15px 0px 5px 0px;
+    color: black;
+    text-align: center;
+}
+/* ENDS */
+
+
+/* Other signup options styling. */
+/* STARTS */
+.other_signup_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other_signup_options a {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin:  10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: #1e65c8;
+    border-radius: 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.fa-google{
+    margin: auto 15px auto 0px;
+}
+/* ENDS */
+
+/* Sign in button styling. */
+/* STARTS */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+    margin: 10px 0px 10px 0px;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.button button:hover {
+    position: relative;
+    z-index: 1;
+    background-color: #1e65c8;
+    color: white;
+    border: none;
+    outline: none;
+}
+/* ENDS */
+
+/* Redirect link styling. */
+/* STARTS */
+.redirect p {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container2 p a {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 1px 5px 1px 5px;
+    border-radius: 9px;
+}
+
+.container2 p a:hover {
+    position: relative;
+    z-index: 1;
+    color: #1e65c8;
+}
+/* ENDS */
+/* ENDS */

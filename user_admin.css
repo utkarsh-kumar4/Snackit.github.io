@@ -1,0 +1,233 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+
+/* Parent div styling. */
+/* STARTS */
+.parent {
+    margin: 0px;
+}
+
+/* User box styling. */
+/* STARTS */
+.user {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color:black;
+}
+
+.border1 {
+    width: fit-content;
+    border-radius: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.border1::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 900px;
+    top: -70%;
+    left: 40%;
+    background: linear-gradient(#fffc01,#fffc01);
+    animation: rotate 6s linear infinite;
+}
+.border1::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    inset: 6px;
+    border-radius: 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.heading1 {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fffc01;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc1 {
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #fffc01;
+    text-align: center;
+}
+
+.anchor1 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor1 a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #fffc01;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 40px 5px 40px;
+    margin: 30px;
+    margin-bottom: 20%;
+    border-radius: 15px;
+}
+
+.anchor1 a:hover {
+    background-color: black;
+    color: #fffc01;
+}
+/* ENDS */
+
+/* Admin box styling. */
+/* STARTS */
+.admin {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    right: 0; 
+    background-color: #fffc01;
+}
+
+.border2 {
+    width: fit-content;
+    border-radius: 25px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.border2::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 900px;
+    top: -70%;
+    left: 40%;
+    background: linear-gradient(black, black);
+    animation: rotate 6s linear infinite;
+}
+
+.border2::after {
+    content: '';
+    position: absolute;
+    background-color: #fffc01;
+    inset: 6px;
+    border-radius: 20px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.heading2 {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc2 {
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.anchor2 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor2 a {
+    text-align: center;
+    text-decoration: none;
+    color: #fffc01;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 40px 5px 40px;
+    margin: 30px;
+    margin-bottom: 20%;
+    border-radius: 15px;
+}
+
+.anchor2 a:hover {
+    background-color: #fffc01;
+    color: black;
+}
+
+.container1 {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    margin-left: 87%;
+    margin-top: 25px;
+}
+
+.container1 a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+}
+
+.container1 a:hover {
+    color: #fffc01;
+    background-color: black;
+}
+/* ENDS */
+/* ENDS */

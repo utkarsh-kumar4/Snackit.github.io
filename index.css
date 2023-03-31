@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+/* Container 1 styling. */
+/* STARTS */
+.container1 {
+    background-color: #fffc01;
+    overflow: auto;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.navbar {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 77%;
+    overflow: auto;
+}
+
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 20px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+}
+
+.navbar a:hover {
+    color: #fffc01;
+    background-color: black;
+}
+
+
+h1 {
+    position: relative;
+    font-family: 'Praise', cursive;
+    font-size: 1600%;
+    text-align: center;
+    color: black;
+    text-shadow: -1px 1px 3px #fffc01,
+				  1px 1px 3px #fffc01,
+				  1px -1px 3px #fffc01,
+				  -1px -1px 3px #fffc01;
+    z-index: 1;
+}
+
+
+.image {
+    position: absolute;
+    top: -12%;
+    left: 29%;
+    height: 90%;
+    opacity: 0.85;
+    background-repeat: no-repeat;
+    animation-name: up-down;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all.7s;
+}
+
+@keyframes up-down {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+/* ENDS */
+
+
+/* Container 2 styling. */
+/* STARTS */
+.container2 {
+    background-color: black;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.container2 ul {
+    padding: 0% 0% 0% 0.33%;
+}
+
+.container2 ul li {
+    list-style: none;
+    display: inline;
+}
+
+.KnowStatus {
+    width: 33%;
+    border-radius: 75px;
+}
+
+.AddCanteen {
+    width: 33%;
+    border-radius: 75px;
+}
+
+.RateExperience {
+    width: 33%;
+    border-radius: 75px;
+}
+/* ENDS */
+
+
+/* Container 3 styling. */
+/* STARTS */
+.container3 {
+    background-color: black;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.container3 hr {
+    background-color: #fffc01;
+    border-color: black;
+    width: 80%;
+    height: 2px;
+}
+/* ENDS */
+
+
+/* Container 4 styling. */
+/* STARTS */
+.container4 {
+    background-color: black;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fffc01;
+    text-align: center;
+    float: left;
+    margin-top: 13px;
+    margin-left: 45%;
+}
+
+.social {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 9%;
+    overflow: auto;
+    float: right;
+}
+
+.social li {
+    float: left;
+    list-style: none;
+    margin: 8px 10px 8px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.social li a {
+    font-family: 'Roboto', sans-serif;
+    color: #fffc01;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+}
+
+.social a:hover {
+    color: black;
+    background-color: #fffc01;
+}
+/* ENDS */
+/* ENDS */

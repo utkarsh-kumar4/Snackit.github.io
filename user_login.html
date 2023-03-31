@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack it | Login</title>
+
+    <!-- Links Font Awesome JS to user_login HTML. -->
+    <script src="https://kit.fontawesome.com/274368f4f5.js" crossorigin="anonymous"></script>
+
+    <!-- Importing from Google Fonts. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+
+    <!-- Links login CSS to user_login HTML. -->
+    <link rel="stylesheet" href="user_login.css">
+</head>
+
+<body>
+    <!-- Container 1. -->
+    <div class="container1">
+        <header>
+            <nav class="navbar">
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Container 2.-->
+    <div class="container2">
+        <div class="heading">
+            <h1>Login</h1>
+        </div>
+        <div class="credentials">
+            <div class="mail">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="Email: " id="loginEmail" placeholder="Enter email" autocomplete="off" required>
+            </div>
+            <div class="password">
+                <i class="fa fa-lock"></i>
+                <input type="password" name="Password: " id="loginPassword" placeholder="Enter password" required>
+            </div>
+            <small><p id="error"></p></small>
+        </div>
+        <div>
+            <p class="or">or</p>
+        </div>
+        <div class="other_login_options">
+            <a href="javascript:loginwithGoogle()"><i class="fa fa-google"></i>Continue with Google</a>
+        </div>
+        <div class="button">
+            <button onclick="login(event)">Sign in <i class="fa fa-sign-in"></i></button>
+        </div>
+        <div class="redirect">
+            <p class="forgotpassword"><a href="javascript:forgotPassword()">Forgot Password?</a></p>
+            <p>New to <strong>Snack it</strong>? <a href="user_signup.html" class="createaccount">Create account </a></p>
+        </div>
+    </div>
+
+    <!-- Links Firebase to user_login HTML. -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="user_firebase_auth.js"></script>
+    <script src="redirect_to_user_dashboard.js"></script>
+    <script>
+        document.onkeydown=function(evt){
+            var keyCode = evt ? (evt.which ? evt.which : evt.keyCode) : event.keyCode;
+            if(keyCode == 13)
+            {
+                login(event);
+            }
+        }
+    </script>
+</body>
+
+</html>

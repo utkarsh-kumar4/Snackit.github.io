@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links Font Awesome JS to addcanteen HTML. -->
+    <script src="https://kit.fontawesome.com/274368f4f5.js" crossorigin="anonymous"></script>
+
+    <!-- Links addcanteen CSS to addcanteen HTML. -->
+    <link rel="stylesheet" href="addcanteen.css">
+    <title>Snack it | Add Canteen</title>
+</head>
+
+<body>
+    <!-- Container 1. -->
+    <div class="container1">
+        <header>
+            <nav class="navbar">
+                <li><a href="admin_dashboard.html"><i class="fa fa-bars"></i>  Dashboard</a></li>
+                <li><button onclick="logout()"><i class="fa fa-user"></i> Logout</button></li>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Container 2.-->
+    <div class="container2">
+        <div class="heading">
+            <h1>Add your canteen</h1>
+        </div>
+        <div class="name">
+            <i class="fa fa-cutlery"></i>
+            <input type="text" name="Canteen name: " id="canteenName" placeholder="Canteen name" autocomplete="off" required>
+        </div>
+        <div class="mail">
+            <i class="fa fa-envelope"></i>
+            <input type="email" name="Email: " id="canteenEmail" placeholder="Enter email" autocomplete="off" required>
+        </div>
+        <div class="phone_number">
+            <i class="fa fa-phone"></i>
+            <input type="number" name="Phone number: " id="canteenPhone" placeholder="Phone number" autocomplete="off" required>
+        </div>
+        <div class="address">
+            <i class="fa fa-map-marker"></i>
+            <input type="text" name="Address: " id="canteenAddress" placeholder="Address" autocomplete="off" required>
+        </div>
+        <div class="canteen_image">
+            <i class="fa fa-file-image-o"></i>
+            <input type="file" name="Canteen image: " id="canteenImage">
+        </div>
+        <div class="button">
+            <button onclick="save()" id="save">Add my canteen <i class="fa fa-plus"></i></button>
+            <small><p id="error"></p></small>
+        </div>
+    </div>
+    <!-- Links Firebase to addcanteen HTML. -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="admin_firebase_auth.js"></script>
+    <script src="admin_dashboard.js"></script>
+    <script src="show_canteen.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+/* Container 1 styling. */
+/* STARTS */
+.container1 {
+    background-color: black;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 71%;
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar button {
+    list-style: none;
+    margin-top: -10px;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #fffc01;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 23px;
+    outline: none;
+    border: none;
+}
+
+.navbar button:hover {
+    color: black;
+    background-color: #fffc01;
+}
+
+.container1 a {
+    font-family: 'Roboto', sans-serif;
+    color: #fffc01;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 23px;
+}
+
+.container1 a:hover {
+    color: black;
+    background-color: #fffc01;
+}
+/* ENDS */
+
+
+/* Container 2 styling. */
+/* STARTS */
+.container2 {
+    background-color: white;
+    box-shadow: 0px 0px 35px #fffc01;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    border-radius: 35px;
+    width: 30%;
+    overflow: hidden;
+}
+
+/* Heading box styling. */
+/* STARTS */
+.heading h1 {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+/* ENDS */
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name input {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.name i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail input {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.mail i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.phone_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone_number input {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.phone_number i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address input {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.address i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.canteen_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canteen_image input {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    color: black;
+    height: 40px;
+    font-size: 15px;
+    width: 75%;
+    margin: 5px 5px 5px 5px;
+    padding: 1px 10px 1px 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=file]::file-selector-button:hover {
+    background: #fffc01;
+    color: black;
+}  
+
+.canteen_image i {
+    position: relative;
+    z-index: 1;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* ENDS */
+
+/* Add my canteen button styling. */
+/* STARTS */
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button button {
+    position: relative;
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 75%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.button button:hover {
+    position: relative;
+    z-index: 1;
+    background-color: #fffc01;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+/* STARTS */
+#error{
+    color: red;
+    text-align: center;
+}
+/* ENDS */
+/* ENDS */
